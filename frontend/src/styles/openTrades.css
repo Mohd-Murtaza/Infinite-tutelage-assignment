@@ -1,0 +1,159 @@
+.opernTradesMainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 16px auto auto auto;
+  padding: 16px 0px;
+  gap: 18px;
+  border-radius: 12px;
+  border: 2px solid #f2f4f7;
+}
+.opernTradesMainContainer > span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  padding-left: 16px;
+  text-align: left;
+  color: #344054;
+}
+.tradesCard {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin: auto;
+  padding: 14px;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid #eaecf0;
+  background: #fcfcfd;
+}
+.tradeNameAndTextDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.tradeNameAndBadgeDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.tradeNameAndBadgeDiv > span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  color: #667085;
+}
+.Long {
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+  border-radius: 32px;
+  background: #ebffee;
+  color: #344054;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+}
+.Short {
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+  border-radius: 32px;
+  background: #fee9e7;
+  color: #344054;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+}
+.tradeNameAndTextDiv > span {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  color: #667085;
+}
+.tradePriceMovementDiv {
+  display: flex;
+  align-items: end;
+  gap: 2px;
+}
+.increment {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: #14ae5c;
+}
+.decrement {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.36px;
+  text-align: left;
+  color: #ec221f;
+}
+.tradePriceMovementDiv > span:nth-child(2) {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #344054;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 979px) {
+  .opernTradesMainContainer {
+    width: 48%;
+    margin: 0px;
+    padding: 16px 0px;
+  }
+  .tradesCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px){
+  .opernTradesMainContainer {
+    width: 48%;
+    margin: 0px;
+    padding: 16px 0px 4px;
+  }
+  .tradesCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .opernTradesMainContainer {
+    width: 99%;
+    margin: auto;
+    padding: 16px 0px;
+  }
+  .tradesCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}

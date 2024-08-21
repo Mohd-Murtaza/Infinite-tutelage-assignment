@@ -1,0 +1,82 @@
+.chartMainContainer {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto auto auto;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #f2f4f7;
+}
+.overviewDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overviewDiv > span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #344054;
+}
+.downloadDiv {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+}
+.downloadDiv > div {
+  width: 24px;
+  height: 24px;
+}
+.downloadDiv > span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: #ad8edd;
+}
+.monthAndYearDiv {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+}
+.monthAndYearDiv > span:nth-child(1) {
+  padding: 0px 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  border-radius: 8px;
+  color:#98A2B3;
+}
+.monthAndYearDiv > span:nth-child(2) {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    border-radius: 8px;
+    color:#1D2939;
+    background: #F1EBF9;
+  }
+
+  @media all and (min-width: 768px) and (max-width: 979px) {
+    .chartMainContainer {
+      padding: 16px 14px;
+    }
+  }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    .chartMainContainer {
+      width: 94%;
+      padding: 16px 14px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .chartMainContainer {
+      width: 90%;
+      padding: 16px 14px;
+    }
+  }

@@ -1,0 +1,145 @@
+.tradingAccountsMainContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 16px auto auto auto;
+  padding: 16px 0px;
+  gap: 18px;
+  border-radius: 12px;
+  border: 2px solid #f2f4f7;
+}
+.tradingAccountsMainContainer > span {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  padding-left: 16px;
+  text-align: left;
+  color: #344054;
+}
+.masterAcountsCard {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin: auto;
+  padding: 24px 16px;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid #eaecf0;
+  background: #fcfcfd;
+}
+.masterAcountsCard > span {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.52px;
+  text-align: left;
+  color: #344054;
+}
+.masterCardBadgeDiv {
+  display: flex;
+  gap: 10px;
+}
+.masterCardBadgeDiv > span:nth-child(1) {
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+  border-radius: 32px;
+  background: #f2f4f7;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  color: #344054;
+}
+.masterCardBadgeDiv > span:nth-child(2) {
+  padding: 4px 8px 4px 8px;
+  gap: 8px;
+  border-radius: 32px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: left;
+  color: #344054;
+}
+.masterCardPriceDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.masterCardPriceInnerDiv {
+  display: flex;
+  align-items: end;
+  gap: 4px;
+}
+.masterCardPriceInnerDiv > span:nth-child(1) {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #344054;
+}
+.masterCardPriceInnerDiv > span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: #344054;
+}
+
+
+@media all and (min-width: 768px) and (max-width: 979px) {
+  .tradingAccountsMainContainer {
+    width: 48%;
+    margin: 0px;
+    padding: 16px 0px;
+  }
+  .masterAcountsCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 24px 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .tradingAccountsMainContainer {
+    width: 48%;
+    margin: 0px;
+    padding: 16px 0px 4px;
+  }
+  .masterAcountsCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 24px 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}
+
+
+@media screen and (max-width:479px) {
+  .tradingAccountsMainContainer {
+    width: 99%;
+    margin: 0px;
+    padding: 16px 0px;
+  }
+  .masterAcountsCard {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    padding: 24px 14px;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid #eaecf0;
+    background: #fcfcfd;
+  }
+}

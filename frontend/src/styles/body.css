@@ -1,0 +1,42 @@
+.bodyMainContainer{
+    width: 100%;
+}
+.bodyMainInnerContainer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.boddyInner1Div{
+    width: 67%;
+}
+.boddyInner2Div{
+    width: 28%;
+}
+
+@media (max-width: 979px) {
+    .bodyMainInnerContainer{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* background-color: red; */
+    }
+    .boddyInner1Div{
+        width: 100%;
+    }
+    .boddyInner2Div{
+        width: 100%;
+        margin: 16px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .boddyInner2Div{
+        flex-direction: column;
+        gap: 16px;
+    }
+  }
