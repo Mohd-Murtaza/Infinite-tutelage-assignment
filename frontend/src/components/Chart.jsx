@@ -60,49 +60,49 @@ const Chart = () => {
     responsive: true,
     plugins: {
       legend: {
-        display: false, // Hide the legend if not needed
+        display: false, 
       },
       tooltip: {
-        backgroundColor: "#363636", // Tooltip background color
-        titleColor: "#fff", // Tooltip title color
-        bodyColor: "#fff", // Tooltip body text color
+        backgroundColor: "#363636", 
+        titleColor: "#fff", 
+        bodyColor: "#fff",
       },
     },
     scales: {
       x: {
         grid: {
-          display: false, // Remove grid lines on the x-axis
+          display: false, 
         },
         ticks: {
-          color: "#98A2B3", // X-axis label font color
+          color: "#98A2B3", 
           font: {
-            family: "Manrope", // X-axis font family
-            size: 12, // X-axis font size
-            weight: "500", // X-axis font weight
+            family: "Manrope", 
+            size: 12, 
+            weight: "500",
           },
         },
       },
       y: {
         grid: {
-          display: false, // Remove grid lines on the y-axis
+          display: false, 
         },
         ticks: {
-          min: 0, // Minimum value on the y-axis
-          max: 1500, // Maximum value on the y-axis
-          stepSize: 250, // Distance between each tick
+          min: 0, 
+          max: 1500, 
+          stepSize: 250, 
           callback: function (value) {
             if(value==0){
               return value;
             }else{
               return "$"+value
-            } // Add dollar sign to y-axis labels
+            } 
 
           },
-          color: "#98A2B3", // Y-axis label font color
+          color: "#98A2B3", 
           font: {
-            family: "Manrope", // Y-axis font family
-            size: 12, // Y-axis font size
-            weight: "500", // Y-axis font weight
+            family: "Manrope", 
+            size: 12, 
+            weight: "500", 
             lineHeight:"13.2px"
           },
         },
